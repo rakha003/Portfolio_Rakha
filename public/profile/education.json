@@ -1,19 +1,22 @@
 {
     "education":[
         {
-            "title": "Jun 20XX - Jun 20YY",
-            "cardTitle": "B.Tech, Computer Science",
-            "cardSubtitle":"XYZ University, City",
-            "cardDetailedText": "CGPA - 9.5",
-            "icon" : {
-                "src": "images/education/lorem-ipsum.png"
+            "title": "Aug 2022 - Dec 2023",
+            "cardTitle": "Master of Science in Computer Information Systems",
+            "cardSubtitle": "Colorado State University",
+            "cardDetailedText": "3.66",
+            "icon": {
+                "src": ""
             }
         },
         {
-            "title": "Apr 20XX",
-            "cardTitle": "High School",
-            "cardSubtitle":"ABC School, City",
-            "cardDetailedText": "Marks - 95%"
+            "title": "Jun 2017 - Jun 2021",
+            "cardTitle": "Bachelor of Technology in Electronics and Communications Engineering",
+            "cardSubtitle":"Jawaharlal Nehru Technological University",
+            "cardDetailedText": "CGPA - 9.02",
+            "icon" : {
+                "src": "images/education/lorem-ipsum.png"
+            }
         }
     ]
 }

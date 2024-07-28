@@ -4,7 +4,7 @@ import '../App.css';
 
 function Header(props) {
   const { title } = props;
-  return <div className="header">{title}</div>;
+  return <div className="header" style={{ textTransform: 'uppercase' }}>{title}</div>;
 }
 
 Header.propTypes = {

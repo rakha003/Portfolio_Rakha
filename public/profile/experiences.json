@@ -1,33 +1,44 @@
 {
     "experiences": [
         {
-            "title": "Software Engineer",
-            "subtitle": "XYZ Ltd",
-            "workType": "Full-time",
+            "title": "Junior Data Analyst",
+            "subtitle": "Capital One",
+            "workType": "Contract",
             "workDescription": [
-                "Integrated **2** new product.",
-                "Worked on adding **def** to **bcd**. Improved speed by 50%."
+                "Built and maintained dashboards and reports using Power BI and Tableau, leading to a 25% increase in data-driven decisions",
+                " Optimized SQL and Python for data analysis, scripting, and data modeling, ensuring high-quality and accurate data."
             ],
-            "dateText": "06/20XX – Present"
+            "dateText": "02/2022 – Present"
+        },
+        {
+            "title": "Cloud Data Engineer",
+            "subtitle": "Colorado State University",
+            "workType": "Part Time",
+            "workDescription": [
+                "Built scalable ETL pipelines using SQL, Python, and AWS services  for real-time analytics in AWS Data Lake, reducing integration time by 30%",
+                "Facilitated system, user requirements gathering sessions, aligning technical specifications with business needs, resulting in a 25% improvement in data accuracy."
+            ],
+            "dateText": "08/2022 – 12/20X23"
         },
         {
             "title": "Software Engineer",
-            "subtitle": "XYZ Ltd",
+            "subtitle": " ",
+            "workType": "Full Time",
+            "workDescription": [
+                "Build ETL pipelines using PySpark for processing the data efficiently to identify possible downtime of the sites",
+                "Leveraged Microsoft Azure for cloud-based data storage and processing, optimizing data retrieval by 15%."
+            ],
+            "dateText": "06/2021 – 07/2022"
+        },
+        {
+            "title": "Software Developer Intern",
+            "subtitle": "Nokia Solutions And Networks",
             "workType": "Internship",
             "workDescription": [
-                "Worked on abc."
+                "Integrated a web application with the company's database containing over 800 to 1000 Nokia products using Flask",
+                "Automated data extraction and transformation processes using Python scripts, reducing manual effort by 30%"
             ],
-            "dateText": "01/20XX – 05/20XX"
-        },
-        {
-            "title": "App Developer",
-            "subtitle": "ABC Pvt Ltd",
-            "workType": "Freelance",
-            "workDescription": [
-                "Developed the official apps for the startup for both Android and iOS using hybrid framework.",
-                "Done bcd work."
-            ],
-            "dateText": "09/20XX – 01/20YY"
+            "dateText": "07/20X19 – 12/2019"
         }
     ]
 }
