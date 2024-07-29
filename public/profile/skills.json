@@ -5,11 +5,15 @@
             "title": "Languages & Databases",
             "items": [
                 {
+                    "icon": "images/skills/python.png",
+                    "title": "Python"
+                },
+                {
                     "icon": "images/skills/java.png",
                     "title": "Java"
                 },
                 {
-                    "icon": "images/skills/php.png",
+                    "icon": "images/skills/cc.png",
                     "title": "C#"
                 },
                 {
@@ -17,15 +21,19 @@
                     "title": "JavaScript"
                 },
                 {
-                    "icon": "images/skills/python.png",
-                    "title": "Python"
+                    "icon": "images/skills/ccc.png",
+                    "title": "C"
                 },
                 {
                     "icon": "images/skills/mysql.png",
                     "title": "MySQL"
                 },
                 {
-                    "icon": "images/skills/mysql.png",
+                    "icon": "images/skills/apachespark.png",
+                    "title": "Apache Spark"
+                },
+                {
+                    "icon": "images/skills/postgresql.png",
                     "title": "Postgre SQL"
                 }
             ]
@@ -34,19 +42,23 @@
             "title": "Data Analysis & Visualization Tools",
             "items": [
                 {
-                    "icon": "images/skills/android_new.png",
+                    "icon": "images/skills/powerbi.png",
                     "title": "Power BI"
                 },
                 {
-                    "icon": "images/skills/react.png",
+                    "icon": "images/skills/r.png",
+                    "title": "R"
+                },
+                {
+                    "icon": "images/skills/tableau.png",
                     "title": "Tableau"
                 },
                 {
-                    "icon": "images/skills/nodejs.png",
+                    "icon": "images/skills/excel.png",
                     "title": " Microsoft Excel"
                 },
                 {
-                    "icon": "images/skills/react.png",
+                    "icon": "images/skills/snowflake.png",
                     "title": "Snowflake"
                 }
             ]
@@ -55,24 +67,32 @@
             "title": "Cloud Technologies & Tools",
             "items": [
                 {
-                    "icon": "images/skills/android-studio.png",
+                    "icon": "images/skills/azure.png",
                     "title": "Microsoft Azure"
                 },
                 {
-                    "icon": "images/skills/android-studio.png",
+                    "icon": "images/skills/databricks.png",
                     "title": "Databricks"
                 },
                 {
-                    "icon": "images/skills/git.png",
+                    "icon": "images/skills/github.png",
                     "title": "Git"
                 },
                 {
-                    "icon": "images/skills/git.png",
+                    "icon": "images/skills/aws.png",
                     "title": "AWS"
                 },
                 {
-                    "icon": "images/skills/git.png",
+                    "icon": "images/skills/jira.png",
                     "title": "Jira"
+                },
+                {
+                    "icon": "images/skills/informatica.png",
+                    "title": "Informatica"
+                },
+                {
+                    "icon": "images/skills/asana.png",
+                    "title": "Asana"
                 },
                 {
                     "icon": "images/skills/docker.png",

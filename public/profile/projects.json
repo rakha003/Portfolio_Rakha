@@ -1,7 +1,7 @@
 {
     "projects" : [
         {
-            "image" : "images/projects/portfolio-poster.png",
+            "image" : "images/projects/prt.png",
             "title": "Portfolio Website",
             "bodyText": "- Analyst Portfolio Website made in React\n -  Fully customisable and dynamic, easily change data and images.\n - Dark Mode Support",
             "links": [
@@ -14,7 +14,7 @@
             ]
         },
         {
-            "image" : "images/projects/caaring-poster.png",
+            "image" : "images/projects/hrt.png",
             "title": " Stroke Prediction And Analysis",
             "bodyText": "- Led the development of predictive analysis for early identification of stroke risk using data mining techniques and Knime software\n - Resulting in the implementation of logistic regression, decision tree, and neural network models with 95.303% accuracy\n ",
             "links": [
@@ -31,7 +31,7 @@
             ]
         },
         {
-            "image" : "images/projects/quiet-hours-poster.jpg",
+            "image" : "images/projects/bsp.png",
             "title": "Big Mart Sales Prediction",
             "bodyText": "- Developed a Product Sale Prediction application utilizing XGBoost Machine Learning algorithm in Python.\n - Achieving a significant accuracy improvement of 10% over previous models like KNN, RandomForest, Linear Regression Algorithms.\n - Created a Power BI dashboard for a retail client to visualize sales data. The dashboard provided insights into sales trends, inventory levels, and customer preferences, resulting in a 15% increase in sales efficiency..",
             "links": [
@@ -47,7 +47,7 @@
             ]
         },
         {
-             "image" : "images/projects/quiet-hours-poster.jpg",
+             "image" : "images/projects/ccw.png",
             "title": " Classification of Crop and Weed",
             "bodyText": "- Worked on image classification using Convolutional Neural Networks (CNN) algorithm implemented with Python Technology.",
             "links": [
@@ -60,6 +60,7 @@
             ]
         },
         {
+            "image" : "images/projects/foa.png",
             "title": "Data Analytics and Visualization Job Simulation, Accenture, Forage",
             "bodyText": "- Successfully Completed Data Analytics and Visualization Job Simulation which was conducted by Accenture, Forage.",
             "links": [
@@ -85,6 +86,7 @@
             ]
         },
         {
+            "image" : "images/projects/cvt.png",
             "title": "Analysis of COVID-19 Vaccination Trends (2021) Using Tableau",
             "bodyText": "-• Designed and developed a comprehensive Tableau Dashboard utilizing a COVID Vaccination 2021 dataset to present critical insights and trends.",
             "links": [

@@ -6,7 +6,7 @@
             "cardSubtitle": "Colorado State University",
             "cardDetailedText": "3.66",
             "icon": {
-                "src": ""
+                "src": "images/education/csulogo.png"
             }
         },
         {
@@ -15,7 +15,7 @@
             "cardSubtitle":"Jawaharlal Nehru Technological University",
             "cardDetailedText": "CGPA - 9.02",
             "icon" : {
-                "src": "images/education/lorem-ipsum.png"
+                "src": "images/education/jntu.png"
             }
         }
     ]
