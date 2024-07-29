@@ -2,149 +2,129 @@
     "projects" : [
         {
             "image" : "images/projects/portfolio-poster.png",
-            "title": "Dev Portfolio",
-            "bodyText": "- Developer Portfolio Website made in React\n -  Fully customisable and dynamic, easily change data and images.\n - Dark Mode Support",
+            "title": "Portfolio Website",
+            "bodyText": "- Analyst Portfolio Website made in React\n -  Fully customisable and dynamic, easily change data and images.\n - Dark Mode Support",
             "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/dev-portfolio"
-                },
-                {
-                    "text": "Live",
-                    "href": "https://mayankagarwal.me"
-                }
+                
             ],
             "tags" : [
-                "React",
+                "JavaScript",
                 "Portfolio",
-                "JavaScript"
+                "React"
             ]
         },
         {
             "image" : "images/projects/caaring-poster.png",
-            "title": "Caaring -  Cab Share App",
-            "bodyText": "- A Cab Sharing web app made using **Django** for **VIT** Students. People can create a new cab or request to join an existing cab.\n - Added User authentication and password reset using **SendGrid**.\n - Deployed on **heroku** using **gunicorn**.",
+            "title": " Stroke Prediction And Analysis",
+            "bodyText": "- Led the development of predictive analysis for early identification of stroke risk using data mining techniques and Knime software\n - Resulting in the implementation of logistic regression, decision tree, and neural network models with 95.303% accuracy\n ",
             "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/Caaring"
-                },
-                {
-                    "text": "Live",
-                    "href": "http://caaring.herokuapp.com"
-                }
             ],
             "tags" : [
                 "Python",
-                "Django",
-                "BootStrap",
-                "SendGrid",
-                "Heroku",
-                "Gunicorn",
-                "VIT"
+                "Knime",
+                "Machine Learning",
+                "Data Analysis",
+                "Power BI",
+                "Logistic Regression",
+                "Decision Tree",
+                "Neural Networks"
             ]
         },
         {
             "image" : "images/projects/quiet-hours-poster.jpg",
-            "title": "Quiet Hours App",
-            "bodyText": "- An Android App that **automatically silences** your phone during class hours, designed for **VITians**.\n - Option to select class **slots** and **custom time**.\n - Option to put on Vibrate instead of Silent.",
+            "title": "Big Mart Sales Prediction",
+            "bodyText": "- Developed a Product Sale Prediction application utilizing XGBoost Machine Learning algorithm in Python.\n - Achieving a significant accuracy improvement of 10% over previous models like KNN, RandomForest, Linear Regression Algorithms.\n - Created a Power BI dashboard for a retail client to visualize sales data. The dashboard provided insights into sales trends, inventory levels, and customer preferences, resulting in a 15% increase in sales efficiency..",
             "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/QuietHours-Android"
-                }
-            ],
-            "tags" : [
-                "Java",
-                "Android",
-                "Alarm Manager",
-                "VIT"
-            ]
-        },
-        {
-            "title": "Secure Chat App",
-            "bodyText": "- An Android App that allows users to send texts in real time.\n - End to End encryption using **RSA** Algorithm.\n - Uses **Firebase** database to store texts.\n - Secured with **Fingerprint** lock.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/SecureChatApp"
-                }
-            ],
-            "tags" : [
-                "Java",
-                "Android",
-                "Firebase",
-                "RSA"
-            ]
-        },
-        {
-            "title": "MVVM Sample App",
-            "bodyText": "- An Android App that loads data from mock API and show in both **LinearLayout** and **GridLayout RecyclerView**.\n - Offline support using **Room** DB and **NetworkBoundResource**.\n - Uses the **MVVM** architecture.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/mvvm-sample-app"
-                }
-            ],
-            "tags" : [
-                "Kotlin",
-                "Android",
-                "MVVM",
-                "Room",
-                "Coroutines",
-                "Flow",
-                "Hilt-Dagger",
-                "NetworkBoundResource"
-            ]
-        },
-        {
-            "title": "Feed List App",
-            "bodyText": "- An Android App that loads list of feeds from a **paginated** API and shows in a RecyclerView.\n - Uses the **MVVM** architecture.\n - Uses **Paging 3** library along with other Architecture Components.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/Paginated-App-Feeds-List"
-                }
-            ],
-            "tags" : [
-                "Kotlin",
-                "Android",
-                "MVVM",
-                "Paging 3",
-                "Coroutines",
-                "Flow"
-            ]
-        },
-        {
-            "title": "Task Tracker",
-            "bodyText": "- A simple Task Tracker web app made with **Angular 12**.\n - Uses **mock JSON server** to get, add, delete or update tasks.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/task-tracker-app"
-                }
-            ],
-            "tags" : [
-                "TypeScript",
-                "Angular 12",
-                "JavaScript"
-            ]
-        },
-        {
-            "title": "Image Encryption/Decryption",
-            "bodyText": "- A Web App for Image Encryption and Decryption made in **Django**.\n - Uses **SDES** algorithm for encryption/decryption.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/img-encrypt-sdes"
-                }
             ],
             "tags" : [
                 "Python",
-                "Django",
-                "SDES",
-                "Cryptography"
+                "Machinen Learning",
+                " Artificial Intelligence",
+                "Power BI",
+                "Random Forest Algorith",
+                "Linear Regression Algorithm",
+                "K Nearest Neighbors Algorithm"
+            ]
+        },
+        {
+             "image" : "images/projects/quiet-hours-poster.jpg",
+            "title": " Classification of Crop and Weed",
+            "bodyText": "- Worked on image classification using Convolutional Neural Networks (CNN) algorithm implemented with Python Technology.",
+            "links": [
+               
+            ],
+            "tags" : [
+                "Python",
+                "Convolutional Neural Network (CNN)",
+                "Machine Learning"
+            ]
+        },
+        {
+            "title": "Data Analytics and Visualization Job Simulation, Accenture, Forage",
+            "bodyText": "- Successfully Completed Data Analytics and Visualization Job Simulation which was conducted by Accenture, Forage.",
+            "links": [
+            ],
+            "tags" : [
+                "Project Unerstanding",
+                "Data Cleaning",
+                "Data Modelling",
+                "Data Visualization and Story Telling",
+                "Presentations to the client"
+            ]
+        },
+        {
+            "title": "End-to-End Database Design for a Brewing Company",
+            "bodyText": "-   Led the complete life cycle of database development for a brewing company, starting from initial data modeling to the final database implementation.\n - Utilized SQL and MySQL to transform the conceptual database design into a fully functional and relational database system..",
+            "links": [
+               
+            ],
+            "tags" : [
+                "Data Modelling",
+                "Microsoft SQL Server",
+                "MYSQL"
+            ]
+        },
+        {
+            "title": "Analysis of COVID-19 Vaccination Trends (2021) Using Tableau",
+            "bodyText": "-• Designed and developed a comprehensive Tableau Dashboard utilizing a COVID Vaccination 2021 dataset to present critical insights and trends.",
+            "links": [
+            ],
+            "tags" : [
+                "Tableau",
+                "Data Analysis",
+                "Data Cleaning"
+            ]
+        },
+        {
+            "title": "Strategic Business Modeling for an Intelligent Vending Machines Venture using UML",
+            "bodyText": "-• Formulated a comprehensive business model for an innovative Intelligent Vending Machines concept, aligning high-level objectives with practical implementation strategies. \n Translated conceptual business goals into tangible UML diagrams, including Use Case, Activity, Sequence, and Class diagrams, to visualize the end-to-end operational framework.",
+            "links": [
+            ],
+            "tags" : [
+                "Business Process Modelling Notation",
+                "Business Process Design",
+                "Unified Modelling Language"
+            ]
+        },
+        {
+            "title": "Integrated Sales Analytics: Building Data Marts, Data Mining, and Visualizations",
+            "bodyText": "-Developed interactive visualizations within Power BI to showcase sales analytics dynamically, empowering stakeholders to engage with data and extract actionable insights",
+            "links": [
+            ],
+            "tags" : [
+                "Microsoft Power BI",
+                "Power Point"
+            ]
+        },
+        {
+            "title": "Migrating to Cloud-Based Database Systems: A Comprehensive Guide",
+            "bodyText": "-This Executive Brief talks about the challenges associated with on-premises database management systems and the benefits of migrating from in-house systems to cloud-based database systems. \n The information outlined in this brief will help organizations select a cloud-based database services provider and the right location for implementing it.",
+            "links": [
+            ],
+            "tags" : [
+                
             ]
         }
+       
     ]
 }

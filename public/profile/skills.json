@@ -1,17 +1,16 @@
 {
     "intro": "Fueled by curiosity and a passion for innovation, I thrive on learning new technologies and pushing the boundaries of what's possible. My journey in data analytics, data engineering and business intelligence has equipped me with a diverse set of skills and tools that I continuously refine and expand.\nHere are some of the key languages, technologies, tools, and platforms I excel in:",
-    "skills": [{
-     
+    "skills": [
+        {
             "title": "Languages & Databases",
-            "items" : [
-     
+            "items": [
                 {
                     "icon": "images/skills/java.png",
                     "title": "Java"
                 },
                 {
                     "icon": "images/skills/php.png",
-                    "title": "PHP"
+                    "title": "C#"
                 },
                 {
                     "icon": "images/skills/js.png",
@@ -24,40 +23,62 @@
                 {
                     "icon": "images/skills/mysql.png",
                     "title": "MySQL"
-                }
-        ]},
-        {
-            "title": "Frameworks & Technologies",
-            "items" : [
-                {
-                    "icon": "images/skills/android_new.png",
-                    "title": "Android"
                 },
                 {
-                    "icon": "images/skills/react.png",
-                    "title": "React"
-                },
-                {
-                    "icon": "images/skills/nodejs.png",
-                    "title": "Nodejs"
+                    "icon": "images/skills/mysql.png",
+                    "title": "Postgre SQL"
                 }
             ]
         },
         {
-            "title" : "Tools & Platforms",
+            "title": "Data Analysis & Visualization Tools",
+            "items": [
+                {
+                    "icon": "images/skills/android_new.png",
+                    "title": "Power BI"
+                },
+                {
+                    "icon": "images/skills/react.png",
+                    "title": "Tableau"
+                },
+                {
+                    "icon": "images/skills/nodejs.png",
+                    "title": " Microsoft Excel"
+                },
+                {
+                    "icon": "images/skills/react.png",
+                    "title": "Snowflake"
+                }
+            ]
+        },
+        {
+            "title": "Cloud Technologies & Tools",
             "items": [
                 {
                     "icon": "images/skills/android-studio.png",
-                    "title": "Android Studio"
+                    "title": "Microsoft Azure"
+                },
+                {
+                    "icon": "images/skills/android-studio.png",
+                    "title": "Databricks"
                 },
                 {
                     "icon": "images/skills/git.png",
                     "title": "Git"
                 },
                 {
+                    "icon": "images/skills/git.png",
+                    "title": "AWS"
+                },
+                {
+                    "icon": "images/skills/git.png",
+                    "title": "Jira"
+                },
+                {
                     "icon": "images/skills/docker.png",
                     "title": "Docker"
                 }
             ]
-    }
-]}
+        }
+    ]
+}
