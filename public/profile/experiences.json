@@ -6,7 +6,8 @@
             "workType": "Full Time",
             "workDescription": [
                 "Led the migration of on-premise SQL databases to cloud platforms such as Azure and AWS, cutting infrastructure costs by 25% and improving data retrieval times by 40%",
-                " Built RESTful APIs using Mulesoft Anypoint Platform for real-time data integration with third-party systems, improving interdepartmental data exchange efficiency by 25%."
+                "Built RESTful APIs using Mulesoft Anypoint Platform for real-time data integration with third-party systems, improving interdepartmental data exchange efficiency by 25%.",
+                "Developed and deployed interactive Power BI dashboards to track agency performance metrics, resulting in 35% faster decision-making by stakeholders."
             ],
             "dateText": "09/2024 – Present"
         },
@@ -16,7 +17,7 @@
             "workType": "Contract",
             "workDescription": [
                 "Built and maintained dashboards and reports using Power BI and Tableau, leading to a 25% increase in data-driven decisions",
-                " Optimized SQL and Python for data analysis, scripting, and data modeling, ensuring high-quality and accurate data."
+                "Optimized SQL and Python for data analysis, scripting, and data modeling, ensuring high-quality and accurate data."
             ],
             "dateText": "02/2024 – 08/2024"
         },
