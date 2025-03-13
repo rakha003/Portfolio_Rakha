@@ -1,6 +1,16 @@
 {
     "experiences": [
         {
+            "title": "IT Database Administrator II",
+            "subtitle": "State Of New Mexico, CYFD",
+            "workType": "Full Time",
+            "workDescription": [
+                "Led the migration of on-premise SQL databases to cloud platforms such as Azure and AWS, cutting infrastructure costs by 25% and improving data retrieval times by 40%",
+                " Built RESTful APIs using Mulesoft Anypoint Platform for real-time data integration with third-party systems, improving interdepartmental data exchange efficiency by 25%."
+            ],
+            "dateText": "02/2024 – 08/2024"
+        },
+        {
             "title": "Junior Data Analyst",
             "subtitle": "",
             "workType": "Contract",
