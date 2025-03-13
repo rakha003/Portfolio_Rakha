@@ -30,6 +30,11 @@
             "href": "/projects"
         },
         {
+            "title": "View My Blogs",
+            "href": "/https://medium.com/@rakhachandre.kanumuri",
+            "type": "link"
+        },
+        {
             "title": "Resume",
             "href": "https://drive.google.com/file/d/1nmlQSckDza8uMOWQSAErzHoKXM-F_FsO/view?usp=shari",
             "type": "link"
