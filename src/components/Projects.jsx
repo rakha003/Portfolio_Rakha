@@ -1,50 +1,71 @@
-import React from 'react';
-import { Card, Button } from 'react-bootstrap';
+import React, { useState, useEffect, useContext } from 'react';
+import { Container, Row, Button } from 'react-bootstrap';
+import { ThemeContext } from 'styled-components';
 import PropTypes from 'prop-types';
+import Fade from 'react-reveal/Fade';
+import Header from './Header';
+import endpoints from '../constants/endpoints';
+import ProjectCard from './projects/ProjectCard';
+import FallbackSpinner from './FallbackSpinner';
 
-const ProjectCard = ({ project }) => {
+const styles = {
+  containerStyle: {
+    marginBottom: 25,
+  },
+  showMoreStyle: {
+    margin: 25,
+  },
+};
+
+const Projects = (props) => {
+  const theme = useContext(ThemeContext);
+  const { header } = props;
+  const [data, setData] = useState(null);
+  const [showMore, setShowMore] = useState(false);
+
+  useEffect(() => {
+    fetch(endpoints.projects, {
+      method: 'GET',
+    })
+      .then((res) => res.json())
+      .then((res) => setData(res))
+      .catch((err) => err);
+  }, []);
+  const numberOfItems = showMore && data ? data.length : 6;
   return (
-    <Card className="h-100 shadow-sm">
-      <Card.Img variant="top" src={project.image} alt={project.title} />
-      <Card.Body>
-        <Card.Title>{project.title}</Card.Title>
-        <Card.Text style={{ whiteSpace: 'pre-line' }}>
-          {project.bodyText}
-        </Card.Text>
+    <>
+      <Header title={header} />
+      {data
+        ? (
+          <div className="section-content-container">
+            <Container style={styles.containerStyle}>
+              <Row xs={1} sm={1} md={2} lg={3} className="g-4">
+                {data.projects?.slice(0, numberOfItems).map((project) => (
+                  <Fade key={project.title}>
+                    <ProjectCard project={project} />
+                  </Fade>
+                ))}
+              </Row>
 
-        {project.links && project.links.length > 0 && (
-          <div className="mt-3">
-            {project.links.map((link, index) => (
-              <Button
-                key={index}
-                variant="outline-primary"
-                href={link.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="me-2"
-              >
-                {link.label}
-              </Button>
-            ))}
+              {!showMore
+                && (
+                <Button
+                  style={styles.showMoreStyle}
+                  variant={theme.bsSecondaryVariant}
+                  onClick={() => setShowMore(true)}
+                >
+                  show more
+                </Button>
+                )}
+            </Container>
           </div>
-        )}
-      </Card.Body>
-    </Card>
+        ) : <FallbackSpinner /> }
+    </>
   );
 };
 
-ProjectCard.propTypes = {
-  project: PropTypes.shape({
-    image: PropTypes.string,
-    title: PropTypes.string,
-    bodyText: PropTypes.string,
-    links: PropTypes.arrayOf(
-      PropTypes.shape({
-        label: PropTypes.string,
-        url: PropTypes.string,
-      })
-    ),
-  }).isRequired,
+Projects.propTypes = {
+  header: PropTypes.string.isRequired,
 };
 
-export default ProjectCard;
+export default Projects;
