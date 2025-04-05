@@ -25,7 +25,7 @@
         {
             "image" : "images/projects/prt.png",
             "title": "Portfolio Website",
-            "bodyText": "- Analyst Portfolio Website made in React\n -  Fully customisable and dynamic, easily change data and images.\n - Dark Mode Support",
+            "bodyText": "- Built a fully customizable and responsive personal portfolio using React, showcasing data analytics projects and technical skills\n -  Supports dark mode, dynamic project loading, and easy content updates via a structured data file.\n -  Designed with clean UI/UX principles to highlight professional experience effectively.",
             "links": [
                 
             ],
